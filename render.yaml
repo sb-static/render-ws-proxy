@@ -2,6 +2,7 @@ services:
   - type: web
     name: ws-https-proxy
     runtime: python
+    region: frankfurt
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: python server.py
