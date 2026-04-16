@@ -8,4 +8,4 @@ services:
     startCommand: python server.py
     envVars:
       - key: PROXY_TOKEN
-        generateValue: true
+        sync: false
